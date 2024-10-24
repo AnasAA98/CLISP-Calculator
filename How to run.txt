@@ -1,9 +1,0 @@
-(load "setup.lisp")
-
-(ql:quickload "hunchentoot")
-(ql:quickload "cl-who")
-(ql:quickload "parse-number")
-(load "calculator.lisp")
-(calculator:start-server)
-
-(calculator:stop-server)
