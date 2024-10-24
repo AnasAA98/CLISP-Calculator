@@ -132,6 +132,18 @@ function calculate(event) {
 
   - If not, prints a message that there's no active server to stop.
 
+## How to run:
+```LISP
+(load "setup.lisp")
+(ql:quickload "hunchentoot")
+(ql:quickload "cl-who")
+(ql:quickload "parse-number")
+(load "calculator.lisp")
+(calculator:start-server)
+;To stop server:
+(calculator:stop-server)
+;Or Use: (exit)
+```
 ## Photos
 
   ![Home Page](https://github.com/AnasAA98/CLISP-Calculator/blob/main/demo-photos/Home%20page.png)
